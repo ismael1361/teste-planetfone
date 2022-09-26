@@ -2,6 +2,10 @@
 
 Esse projeto foi realizado a pedido de teste em processo seletivo da Planetfone, com o objetivo em avaliar a aptidão do candidato.
 
+Foi utilizado para o desenvolvimento do Backend o Node.js, um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.
+
+Para o desenvolvimento do Frontend, foi utilizado uma das frameworks mais famosa dos desenvolvedores, o React.js, uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais. É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outros.
+
 # Instalação do projeto
 
 Antes de iniciar o projeto, é preciso realizar a instalação das dependências do Backend e Frontend.
@@ -14,7 +18,7 @@ npm run install
 
 # Instalação individual
 
-## Backend
+### Backend
 
 O primeiro comando será para direcionar o prompt de comando até a pasta *backend*. Em seguida, o próximo comando realizará a instalação das dependências. O ultimo comando a realizar, deverá voltar para a pasta *raiz* :
 
@@ -24,7 +28,7 @@ npm install
 cd ../
 ```
 
-#### Dependências
+##### Dependências
 
 | Dependência | Versão  |
 |-------------|---------|
@@ -32,7 +36,7 @@ cd ../
 | body-parser | ^1.20.0 |
 | express     | ^4.18.1 |
 
-## Frontend
+### Frontend
 
 O primeiro comando será para direcionar o prompt de comando até a pasta *frontend*. Em seguida, o próximo comando realizará a instalação das dependências. O ultimo comando a realizar, deverá voltar para a pasta *raiz* :
 
@@ -42,7 +46,7 @@ npm install
 cd ../
 ```
 
-#### Dependências
+##### Dependências
 
 | Dependência                 | Versão  |
 |-----------------------------|---------|
