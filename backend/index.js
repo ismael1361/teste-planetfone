@@ -2,6 +2,8 @@
 const express = require('express');
 const app = express();
 
+const cors = require('cors');
+
 //Importanto propriedade Axios para realizar requisições de APIs.
 const axios = require('axios').default;
 
@@ -10,6 +12,8 @@ const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
+app.use(cors());
 
 //Criando um solicitação HTTP GET para o caminho especificado com as funções de retorno de chamada especificadas.
 app.get('/usuarios', (req, res) => {
